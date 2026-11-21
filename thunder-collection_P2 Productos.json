@@ -1,0 +1,128 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "P2 Productos",
+    "collectionId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+    "dateExported": "2026-11-21T03:24:57.481Z",
+    "version": "1.4",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0b7f9741-d8ab-4a70-a059-ec5259e5d35f",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "1. GET /api/productos",
+            "url": "http://localhost:3000/api/productos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2026-11-21T03:00:51.833Z",
+            "modified": "2026-11-21T03:00:51.833Z",
+            "headers": []
+        },
+        {
+            "_id": "7762106b-8fa1-42c2-8edf-43b5cc6d7289",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "2. GET /api/productos/1",
+            "url": "http://localhost:3000/api/productos/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2026-11-21T03:02:53.958Z",
+            "modified": "2026-11-21T03:02:53.958Z",
+            "headers": []
+        },
+        {
+            "_id": "35e8bb3d-6f44-41e6-beda-5bdff85c4c23",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "3. GET /api/productos/99",
+            "url": "http://localhost:3000/api/productos/99",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2026-11-21T03:04:06.854Z",
+            "modified": "2026-11-21T03:04:06.854Z",
+            "headers": []
+        },
+        {
+            "_id": "d60618a4-271c-43a5-88d5-6fe3d3712d0a",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "4. POST /api/productos",
+            "url": "http://localhost:3000/api/productos",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2026-11-21T03:07:13.606Z",
+            "modified": "2026-11-21T03:07:13.606Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\"nombre\": \"Monitor\", \"precio\": 2500, \"stock\": 5}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "b168cf18-274a-46ea-9f9b-787bf9c0d5df",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "5. POST /api/productos",
+            "url": "http://localhost:3000/api/productos",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2026-11-21T03:13:39.928Z",
+            "modified": "2026-11-21T03:13:39.929Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\"nombre\": \"\", \"precio\": -1}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "b4214e30-f2d2-4fcd-a7f8-e7217811a5a4",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "6. PUT /api/productos/1",
+            "url": "http://localhost:3000/api/productos/1",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2026-11-21T03:16:07.235Z",
+            "modified": "2026-11-21T03:16:07.235Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\"nombre\": \"Teclado RGB\", \"precio\": 420, \"stock\": 8}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "bb53193f-0fd4-4871-9c73-20c1f376e652",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "7. DELETE /api/productos/2",
+            "url": "http://localhost:3000/api/productos/2",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2026-11-21T03:17:53.582Z",
+            "modified": "2026-11-21T03:17:53.582Z",
+            "headers": []
+        },
+        {
+            "_id": "e0ab3b36-5ba2-4d40-a6d9-75cbc0daad09",
+            "colId": "af82886a-00df-4e7f-82f0-12f4ce5be8e0",
+            "containerId": "",
+            "name": "8. DELETE  /api/productos/2",
+            "url": "http://localhost:3000/api/productos/2",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2026-11-21T03:18:40.805Z",
+            "modified": "2026-11-21T03:18:40.805Z",
+            "headers": []
+        }
+    ],
+    "ref": "LwiR4-A2tCup2FKn_amhVnBRovnyW5e9zhyb7lx5pR5ABQSJThz3eqPzMjlXpabYVzaAhInjj1VOh9UUYkCYAQ"
+}
